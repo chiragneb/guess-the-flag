@@ -66,6 +66,7 @@ export default props => {
 
     return (
         <CentreWrapper>
+            <h1>Guess The Flag!</h1>
             <Flag flag={emoji} />
             <AnswerBox 
               answer={name}
